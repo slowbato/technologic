@@ -33,7 +33,7 @@ function defaultBackends(): BackendConfiguration[] {
 		{
 			api: 'anthropic', // readonly, must exist in BackendFactory#backends
 			name: 'Anthropic',
-			url: 'https://api.anthropic.com/v1',
+			url: '/anthropic/v1',
 			models: ['claude-3-opus-20240229'],
 			defaultModel: 'claude-3-opus-20240229',
 			token: 'YOUR_API_KEY_HERE',
